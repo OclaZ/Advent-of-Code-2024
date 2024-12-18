@@ -8,13 +8,13 @@ My solutions for Advent of Code 2024
 AOC2024/
 │
 ├── Day01/
-│   ├── main1.py
-│   ├── main2.py
+│   ├── main-1.py
+│   ├── main-2.py
 │   └── input.txt
 │
 ├── Day02/
-│   ├── main1.py
-│   ├── main2.py
+│   ├── main-1.py
+│   ├── main-2.py
 │   └── input.txt
 │
 └── ...

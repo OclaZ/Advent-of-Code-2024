@@ -5,6 +5,6 @@ with open(sys.argv[1] , 'r') as f:
 
 list1, list2 =list(map(list, zip(*lines)))
 
-total=sum(abs(x1-x2) for x1, x2 in zip(sorted(list1), sorted(list2)))
+solution=sum(abs(x1-x2) for x1, x2 in zip(sorted(list1), sorted(list2)))
 
-print(f'Answer: {total}')
+print(f'Answer: {solution}')

@@ -5,6 +5,6 @@ with open(sys.argv[1] , 'r') as f:
 
 list1, list2 =list(map(list, zip(*lines)))
 
-part1=sum(x * len([y for y in list2 if y == x]) for x in list1)
+solution=sum(x * len([y for y in list2 if y == x]) for x in list1)
 
-print(f'Answer: {part1}')
+print(f'Answer: {solution}')
